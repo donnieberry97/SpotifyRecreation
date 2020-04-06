@@ -1,0 +1,139 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Spotify Re-Creation</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fd007505c4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="mainContainer">
+        <section class="left-side">
+            <div class="home-links">
+                <div class="home-links-container">
+                    <div class="centerDiv">
+                        <div class="elipsis">
+                            <span class="font-awesome elipsis-icon"><i class="fas fa-ellipsis-h"></i></span>
+                        </div>
+                        <ul class="home-links">
+                            <li><a href="#"><span class="font-awesome home-icon home-links"><i class="fas fa-home"></i></span>Home</a></li>
+                            <li><a href="#"><span class="font-awesome home-icon home-links"><i class="fas fa-search"></i></span>Browse</a></li>
+                            <li><a href="#"><span class="font-awesome home-icon home-links"><i class="fas fa-rss"></i></span>Radio</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist-area">
+                <div class="library-container library">
+                    <h5>your library</h5>
+                    <ul class="playlist part1">
+                        <li><a href="#">Made For You</a></li>
+                        <li><a href="#">Recently Played</a></li>
+                        <li><a href="#">Liked Songs</a></li>
+                        <li><a href="#">Albums</a></li>
+                        <li><a href="#">Artists</a></li>
+                        <li><a href="#">Local Files</a></li>
+                        <li><a href="#">Podcasts</a></li>
+                    </ul>
+                </div>
+
+                <div class="playlist-container">
+                    <h5>playlists</h5>
+                    <ul class="playlist part2">
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="middle-side">
+            <div class="playlist-info-area">
+                <div class="searchbar">
+                </div>
+
+                <div class="playlist-info">
+
+                    <div class="playlist-art">
+                        <img src="img/albumArt.jpg">
+                        <div class="playlist-header">
+                            <h5 class="white">playlist</h5>
+                            <h2 class="white">Hip-Hop</h2>
+                            <p>Created by <span class="white">Donnie Berry</span> • 28 songs, 6 hr 21 min</p>
+                            <button class="spotify-classic">Play</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="song-list-margin"></div>
+            <div class="song-list-area">
+            </div>
+        </section>
+
+        <section class="right-side">
+
+            <div class="friends-area">
+
+            </div>
+
+        </section>
+    </div>
+
+    <div class="play-bar">
+        <div class="now-playing-container">
+            <div class="now-playing-area">
+                <div class="now-playing-img">
+                    <img src="img/albumArt.jpg">
+                </div>
+                <div class="now-playing-songinfo centerDiv">
+                    <div class="now-playing-title">
+                        <h5 class="songTitle">Lose Yourself</h5>
+                    </div>
+                    <div class="now-playing-artist">
+                        <h5 class="songArtist">Eminem</h5>
+                    </div>
+                </div>
+            </div>
+        
+        
+        <div class="songPlayingBar-area">
+            <div class="songPlayingBar-container">
+                <div class="songPlayingBar-icons">
+                    <div class="songPlayingBar-icons-container centerDiv">
+                        <span class="font-awesome playBar"><i class="fas fa-random"></i></span>
+                        <span class="font-awesome playBar"><i class="fas fa-step-backward"></i></span>
+                        <span class="font-awesome playBar play"><i class="far fa-play-circle"></i></span>
+                        <span class="font-awesome playBar"><i class="fas fa-step-forward"></i></span>
+                        <span class="font-awesome playBar"><i class="fas fa-redo"></i></span>
+                    </div>
+                </div>
+                <div class="songPlayingBar-bar">
+                    <div class="songPlayingBar-runtime-begin">
+                        <p class="runtime">0:34</p>
+                    </div>
+                    <div class="progressBar">
+                        <div class="progressBar-completed"></div>
+                    </div>
+                    <div class="songPlayingBar-runtime-end">
+                        <p class="runtime">1:32</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="js/playlists.js"></script>
+    <script src="js/songs.js"></script>
+</body></html>

@@ -1,0 +1,438 @@
+/* general */
+
+html,
+body {
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Lists */
+
+ul.playlist li {
+    font-weight: 700;
+    padding: 0.6em 0em;
+}
+
+ul.playlist li a {
+    color: #787878;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+ul.playlist li:hover a {
+    color: white;
+    cursor: default;
+}
+
+
+ul.home-links li {
+    font-weight: 700;
+    padding: 0.6em 0em;
+}
+
+ul.home-links li a {
+    color: #787878;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+ul.home-links li:hover a {
+    color: white;
+    cursor: default;
+}
+
+/* containers */
+
+.library-container,
+.playlist-container {
+    margin-left: 7%;
+}
+
+.songPlayingBar-icons-container {
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+
+.elipsis {
+    margin-bottom: 4%;
+    padding-top: 5%;
+}
+
+.home-links-container {
+    height: 100%;
+    margin-left: 7%;
+}
+
+.mainContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+}
+
+.left-side {
+    width: 17.3%;
+}
+
+.middle-side {
+    width: 67.3%;
+}
+
+.right-side {
+    width: 15.4%;
+}
+
+.song-list-title {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.song-list-album {
+    width: 20%;
+}
+
+.song-list-date {
+    width: 12%;
+}
+
+.song-list-container div {
+    border-bottom: 1px solid #232323;
+}
+
+.song-list-container:hover > div {
+    background: #282828;
+    cursor: default;
+}
+
+.song-list-runtime {
+    width: 8%;
+}
+
+.song-list-container {
+    width: 100%;
+    display: flex;
+}
+
+.song-list-margin {
+    padding-top: 9%;
+    background: #181818;
+}
+
+.song-list-artist {
+    width: 20%;
+}
+
+p.song {
+    padding: 1em 0px;
+    color: white;
+    font-weight: 500;
+}
+
+/* sections */
+
+.now-playing-area {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    position: relative;
+}
+
+.songPlayingBar-area {
+    width:60%;
+    height: 100%;
+}
+
+.songPlayingBar-container {
+    height: 100%;
+}
+
+.songPlayingBar-icons {
+    height: 75%;
+    width: 100%;
+}
+
+.songPlayingBar-bar {
+    height: 25%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+}
+
+.now-playing-title, .now-playing-artist {
+      height: 50%;
+    line-height: 50%;
+      display: flex;
+  align-items: center;
+
+}
+
+.library {
+    margin-bottom: 10%;
+}
+
+div.home-links {
+    position: relative;
+    height: 22.5%;
+    width: 100%;
+    background-color: #121212;
+}
+
+ul.home-links {
+  align-self: center;
+}
+
+.centerDiv {
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+
+.playlist-area {
+    width: 100%;
+    height: 70%;
+    background-color: #121212;
+    overflow-y: scroll;
+}
+
+.playlist-info-area {
+    width: 100%;
+    height: 31%;
+    position: relative;
+    background: linear-gradient(to bottom, #3d3d3d 0%, #181818 100%);
+}
+
+.song-list-area {
+    width: 100%;
+    height: 61.5%;
+    background-color: #181818;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.friends-area {
+    height: 92.5%;
+    width: 100%;
+    background-color: #121212;
+}
+
+.play-bar {
+    background-color: #282828;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7.5%
+}
+
+.searchbar {
+    height: 15%;
+    width: 100%;
+    background: #3d3d3d;
+}
+
+.playlist-info {
+    display: flex;
+    background: linear-gradient(to bottom, rgba(62, 62, 62, 1) 0%, rgba(24, 24, 24, 1) 100%);
+    ;
+    height: 85%;
+    padding: 0.5em 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.playlist-art {
+    display: flex;
+    width: 100%;
+}
+
+.playlist-art img {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+.now-playing-img {
+    width: 20%;
+    height:100%;
+}
+
+.now-playing-title {
+}
+
+.now-playing-img img {
+    display: block;
+    max-height:100%;
+    width: auto;
+}
+
+.playlist-header-container {
+    height: 100%;
+    position: relative;
+}
+
+.now-playing-container {
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0.5em 1.4em
+}
+
+.now-playing-songinfo {
+    width: 75%;
+    height: 70%;
+    
+}
+
+
+
+.playlist-header {
+    padding: 1em 1em;
+}
+
+/* buttons */
+.spotify-classic {
+    background: #1db954;
+    color: white;
+    border: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.6em 3em;
+    border-radius: 30px;
+    margin-top: 15px
+}
+
+/* typography */
+
+span.home-links {
+    margin-right: 4%;
+    font-size: 1em;
+}
+
+span.elipsis-icon {
+    color:white;
+    font-size: 1.5em;
+}
+
+span.playBar {
+    margin-right: 1.6em;
+    width: 50%;
+    color:#b3b3b2;
+    font-weight: 100;
+    font-size: 1em;
+    height: 100%;
+}
+
+span.playBar i {
+}
+
+.songPlayingBar-bar{
+
+}
+
+span.playBar.play {
+    font-size: 1.8em;
+}
+
+span.playBar:last-of-type {
+    margin-right: 0;
+}
+
+.progressBar {
+    width: 80%;
+    background:#404040;
+    height: 30%;
+    border-radius: 30px;
+    
+}
+
+
+
+.progressBar-completed {
+    width: 40%;
+    background:white;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.songPlayingBar-runtime-begin {
+    width: 10%;
+    text-align: right;
+    margin-right: 1em;
+}
+
+.songPlayingBar-runtime-end {
+    width:10%;
+    margin-left: 1em;
+}
+
+.white {
+    color: white;
+}
+
+p {
+    font-size: 0.9em;
+    color: #787878;
+    font-weight: 500;
+    padding: 0.7em 0em;
+}
+
+p.runtime {
+    padding:0em;
+}
+
+h5 {
+    color: #787878;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.6em 0em;
+}
+
+h3 {
+    color: #787878;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+h2 {
+    color: #787878;
+    font-size: 3em;
+    font-weight: 700;
+    padding: 0.2em 0em;
+}
+
+h5.songTitle, h5.songArtist {
+    margin: 0;
+    padding: 0em;
+    text-transform: none
+}
+
+h5.songTitle {
+    color:white;
+    font-weight: 700;
+}
+
+/* grid */
+
+/* header */
+
+/* footer */
+
+
+/* scrollbar */
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 17px;
+    background-color: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #535353;
+    border-radius: 0;
+}
